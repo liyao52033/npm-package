@@ -1,0 +1,38 @@
+{
+	"name": "create-npm-package",
+	"version": "1.0.0",
+	"type": "module",
+	"repository": "git@github.com:liyao52033/npm-package.git",
+	"homepage": "https://github.com/liyao52033/npm-package",
+	"bugs": {
+		"url": "https://github.com/liyao52033/npm-package/issues"
+	},
+	"author": "liyao <liyao520332163.com>",
+	"keywords": [
+		"npm-package",
+		"npm",
+		"package"
+	],
+	"bin": {
+		"create-npm-package": "./dist/index.js"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"dev": "tsup --watch --publicDir",
+		"build": "rimraf dist && tsup --minify --publicDir",
+		"start": "npm run build && node dist/index.js",
+		"pub": "npm run build && npm publish"
+	},
+	"dependencies": {
+		"fs-extra": "^11.1.1"
+	},
+	"devDependencies": {
+		"@types/fs-extra": "^11.0.3",
+		"@types/node": "^22.13.10",
+		"rimraf": "^5.0.1",
+		"tsup": "^8.5.0",
+		"typescript": "^5.8.2"
+	}
+}
