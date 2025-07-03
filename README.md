@@ -2,22 +2,22 @@
 
 ### npm
 ```
-npm create npm-package@latest my-first-blog
+npm create npm-tspack@latest my-first-blog
 ``` 
 
 ### yarn
 ```
-yarn create npm-package@latest my-first-blog
+yarn create npm-tspack@latest my-first-blog
 ```
 
 ###  pnpm
 ```
-pnpm create npm-package@latest my-first-blog
+pnpm create npm-tspack@latest my-first-blog
 ```
 
 ###  bun
 ```
-bunx create-npm-package@latest my-first-blog --bun
+bunx create-npm-tspack@latest my-first-blog --bun
 ```
 
 ## 2、打开项目，安装依赖
@@ -32,7 +32,7 @@ npm install
 yarn install
 ```
 
-###  pnpm(推荐)
+###  pnpm
 ```
 pnpm install
 ```

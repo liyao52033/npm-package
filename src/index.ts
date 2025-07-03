@@ -19,7 +19,7 @@ const isBun = bolleanFlag.includes('--bun');
 if (argvs.includes('--help') || argvs.includes('-h')) {
 	console.log(`
 Usage:
-  create-npm-package [project-name] [Options]
+  create-npm-tspack [project-name] [Options]
 
 Options:
   --bun     Use bun instead of pnpm

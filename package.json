@@ -1,20 +1,20 @@
 {
-	"name": "create-npm-package",
+	"name": "create-npm-tspack",
 	"version": "1.0.0",
 	"type": "module",
-	"repository": "git@github.com:liyao52033/npm-package.git",
-	"homepage": "https://github.com/liyao52033/npm-package",
+	"repository": "git@github.com:liyao52033/npm-tspack.git",
+	"homepage": "https://github.com/liyao52033/npm-tspack",
 	"bugs": {
-		"url": "https://github.com/liyao52033/npm-package/issues"
+		"url": "https://github.com/liyao52033/npm-tspack/issues"
 	},
 	"author": "liyao <liyao520332163.com>",
 	"keywords": [
-		"npm-package",
+		"npm-tspack",
 		"npm",
 		"package"
 	],
 	"bin": {
-		"create-npm-package": "./dist/index.js"
+		"create-npm-tspack": "./dist/index.js"
 	},
 	"files": [
 		"dist"
